@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -r coverage
+rm -rf coverage
 mkdir coverage
 
 # make unit
