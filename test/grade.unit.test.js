@@ -26,5 +26,21 @@ describe('GradeUnitTest', function () {
 		it('should return D+ when score is greater than 59', function () {
 			grade(61).should.equal('D+');
 		});
+
+		it('should return D when score is greater than 54', function () {
+			grade(56).should.equal('D');
+		});
+
+		it('should return D- when score is greater than 49', function () {
+			grade(52).should.equal('D-');
+		});
+
+		it('should return F+ when score is greater than 39', function () {
+			grade(40).should.equal('F+');
+		});
+
+		it('should return F when score is greater than 35', function () {
+			grade(38).should.equal('F');
+		});
 	});
 });
