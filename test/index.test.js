@@ -17,5 +17,11 @@ describe('test', function () {
 			app.isRobot().should.be.false;
 			done();
 		})
+
+		it('should be shout', function (done) {
+			var shout = 'hello';
+			app.shout(shout).should.equal('Shout : ' + shout);
+			done();
+		})
 	})
 });
