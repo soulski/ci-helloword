@@ -12,5 +12,10 @@ describe('test', function () {
 			app.isHuman().should.be.false;
 			done();
 		})
+
+		it('should not be human', function (done) {
+			app.isRobot().should.be.false;
+			done();
+		})
 	})
 });
