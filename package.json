@@ -4,7 +4,7 @@
   "description": "ci-helloword ============",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec ./test/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "70b2ea30fb59ea062c8dad35ce4485384d4d10e7",
-  
+
   "devDependencies": {
     "mocha": "~1.20.1"
   }
