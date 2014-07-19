@@ -1,0 +1,21 @@
+{
+  "name": "ci-helloword",
+  "version": "0.0.1",
+  "description": "ci-helloword ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soulski/ci-helloword.git"
+  },
+  "keywords": [
+    "ci",
+    "helloworld"
+  ],
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "70b2ea30fb59ea062c8dad35ce4485384d4d10e7"
+}
