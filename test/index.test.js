@@ -1,9 +1,9 @@
-var assert = require('assert');
+var should = require('should');
 
 describe('test', function () {
 	describe('hello world', function() {
 		it('should success', function (done) {
-			assert.equal(true, true);
+			true.should.be.true;
 			done();
 		})
 	})

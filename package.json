@@ -4,7 +4,8 @@
   "description": "ci-helloword ============",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec ./test/index.js"
+    "test": "mocha -R spec ./test/*.test.js",
+    "coverage": "sh make-coverage.sh"
   },
   "repository": {
     "type": "git",
