@@ -10,8 +10,6 @@ $( document ).ready(function() {
   	}
   	else {
 			$.get( url, function( data ) {
-		  data = JSON.parse(data);
-
 			$('.your-score').text(data.grade);
   		$('#dialog').dialog();  
 		});
