@@ -1,5 +1,4 @@
 var grade = function (score) {
-
 	if (score >= 95 && score <= 100) {
 		return 'A+'
 	}
