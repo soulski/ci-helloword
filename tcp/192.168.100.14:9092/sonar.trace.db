@@ -1,0 +1,44 @@
+07-20 13:20:11 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROPERTIES" not found; SQL statement:
+select p.id as id, p.prop_key as "key", p.text_value as value, p.resource_id as resourceId, p.user_id as userId
+    from properties p
+    where p.prop_key=?
+     
+      AND p.resource_id is null
+     
+     
+     
+      AND p.user_id is null [42102-172]
+07-20 13:21:23 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROPERTIES" not found; SQL statement:
+select p.id as id, p.prop_key as "key", p.text_value as value, p.resource_id as resourceId, p.user_id as userId
+    from properties p
+    where p.prop_key=?
+     
+      AND p.resource_id is null
+     
+     
+     
+      AND p.user_id is null [42102-172]
+07-20 13:24:06 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROPERTIES" not found; SQL statement:
+select p.id as id, p.prop_key as "key", p.text_value as value, p.resource_id as resourceId, p.user_id as userId
+    from properties p
+    where p.prop_key=?
+     
+      AND p.resource_id is null
+     
+     
+     
+      AND p.user_id is null [42102-172]
+07-20 13:25:44 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROPERTIES" not found; SQL statement:
+select p.id as id, p.prop_key as "key", p.text_value as value, p.resource_id as resourceId, p.user_id as userId
+    from properties p
+    where p.prop_key=?
+     
+      AND p.resource_id is null
+     
+     
+     
+      AND p.user_id is null [42102-172]
