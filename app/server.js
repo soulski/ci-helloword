@@ -27,5 +27,6 @@ app.get('/grade', function (req, res) {
 });
 
 exports.run = function () {
-	app.listen(8089);
+	var port = Number(process.env.PORT || 8089);
+	app.listen(port);
 }
