@@ -1,0 +1,12 @@
+.top {
+	color: red;
+	padding: 20px 0px 10px;
+}
+
+.bottom {
+	color: yellow;
+}
+
+.your-score {
+	font-size: 24px;
+}
