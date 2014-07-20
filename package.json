@@ -24,6 +24,8 @@
     "should": "3.3.x"
   },
   "dependencies": {
-    
+    "express": "~4.6.1",
+    "consolidate": "~0.10.0",
+    "hogan.js": "~3.0.2"
   }
 }
