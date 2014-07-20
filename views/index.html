@@ -1,6 +1,29 @@
 <html>
-	<header>
-		<title>Text</title>		
-	</header>
-	<body>Hello World</body>
+	<head>
+		<title>Score calculate</title>
+		<link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="public/jquery-ui/jquery-ui.css"/>
+		<link rel="stylesheet" href="public/css/main.css"/>
+
+		<script src="public/js/jquery.min.js"></script>
+		<script src="public/jquery-ui/jquery-ui.js"></script>
+		<script src="public/js/main.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="top">
+				<label>Score</label>
+				<input class="score-text" type="text" />
+			</div>
+			<div class="bottom">
+				<button class="btn btn-large btn-success">Calculate</button>
+			</div>
+		</div>
+		<div id="dialog" title="Your Score is">
+			<span class="your-score"></span>
+		</div>
+		<div id="dialog-warn" title="Warning">
+			<span class="your-score-warn"></span>
+		</div>
+	</body>
 </html>
